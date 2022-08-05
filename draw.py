@@ -30,6 +30,7 @@ def save():
     im.resize((28,28))
     im.save("captured.png")
 
+
 def clearCanvas():
     drawingWindow.delete('all')
     label.configure(text ='')
